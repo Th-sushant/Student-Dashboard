@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crashy Course</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background-color: #f2f6fc;
+        }
+        header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background-color: #e6f0fa;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+        header.scrolled {
+            background-color: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(8px);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-weight: bold;
+        }
+
+         nav a { 
+            margin: 0 15px ;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .register-btn {
+            padding: 8px 15px;
+            border: 1px solid #00bcd4;
+            background-color: white;
+            color: #00bcd4;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 60px 50px;
+            background-color: white;
+        }
+
+        .text-section {
+            max-width: 40%;
+        }
+
+        .text-section h1 {
+            font-size: 2.5em;
+        }
+
+        .text-section span {
+            color: #00bcd4;
+        }
+
+        .text-section p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .learn-more-btn {
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #00bcd4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .image-section img {
+            width: 400px;
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Crashy Course</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Contact us</a>
+            <a href="#">FAQ</a>
+        </nav>
+        <button class="register-btn">Register</button>
+    </header>
+
+    <div class="main-content">
+        <div class="text-section">
+            <h1>Online <span>Learning</span></h1>
+            <p>
+                Explore our exciting online courses and learn with flexibility and comfort.
+                Expand your professional skillset with interactive lessons and expert instructors.
+            </p>
+            <button class="learn-more-btn">LEARN MORE</button>
+        </div>
+        <div class="image-section">
+            <img src="https://cdn-icons-png.flaticon.com/512/3539/3539752.png" alt="Online Learning Illustration">
+        </div>
+    </div>
+    <script>
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eos vero voluptatum laborum explicabo corrupti,
+        vel ipsa aliquam nam officia? Neque corrupti sit dolores similique, quas natus labore rem! Velit sunt reiciendis
+        delectus expedita, hic corrupti eos facere. Et assumenda, minus provident omnis in, optio sit, reprehenderit
+        amet nam natus quas. Consequatur quidem officiis in nihil sapiente quibusdam possimus totam iste rerum nam quod
+        expedita suscipit vitae delectus nobis minus, ducimus sed id! Qui quisquam nihil quasi minima doloremque
+        voluptatibus excepturi fuga eum dolorem iusto. Incidunt qui repellendus aliquid eveniet cum accusamus culpa
+        maiores? Veniam maiores sint magni dicta eius aspernatur numquam eum ut qui hic magnam nostrum, quia voluptates
+        sequi ullam neque iusto, cum reiciendis maxime et nihil tenetur! Magnam, dignissimos illum enim maiores quod
+        aliquid id hic eius, quam modi impedit adipisci quis perferendis consequuntur numquam praesentium assumenda!
+        Voluptates, fuga esse dolor mollitia rerum impedit! Error dicta, suscipit beatae, quos iusto nostrum distinctio
+        totam voluptas autem maxime omnis consequuntur! Incidunt ratione dolorum vero, ducimus animi distinctio fugit
+        impedit nesciunt nihil libero esse voluptatem veniam excepturi ab odio recusandae. Beatae laboriosam blanditiis
+        alias, provident sapiente libero molestias sit quisquam doloremque minus consequatur similique a deleniti autem
+        maxime, illo dolores vitae laborum perferendis deserunt quidem quos sint. Quasi, dolorum dolores quisquam
+        expedita totam sint assumenda culpa, illum animi dignissimos placeat quod? Autem eveniet aliquid dicta quibusdam
+        inventore dignissimos voluptates? Cum laborum, sunt vitae velit aperiam amet provident, numquam quasi neque
+        consequatur ad pariatur veritatis nisi dolore quod vel reprehenderit atque molestiae quia esse voluptatibus odio
+        voluptatum eligendi! Accusamus ipsum aperiam enim libero voluptas velit repellat reiciendis ipsa ab corrupti
+        aliquid distinctio nobis placeat, voluptatem labore quas exercitationem optio obcaecati est quam sit aut id
+        ducimus? Quasi quia odio autem fugit, non dicta quae dignissimos quidem voluptatibus iste saepe fuga quod sit
+        accusantium totam aut sapiente corporis fugiat distinctio mollitia eaque similique explicabo debitis
+        necessitatibus? Voluptatum temporibus impedit odit nulla dolore accusamus voluptate voluptates explicabo eos nam
+        ullam quam officia rem natus numquam ut animi, quos commodi corrupti. Dicta numquam perferendis minima fugiat
+        sapiente eius, adipisci tempore nobis laudantium tenetur magni sunt beatae nemo distinctio similique, sint
+        rerum, debitis eligendi. Eos sequi architecto iure ullam natus neque id recusandae necessitatibus minus vero.
+        Tempora voluptates repellat hic similique suscipit dolore? Explicabo fugiat dolorem veniam officiis id culpa
+        delectus vitae quisquam illum vel optio maxime sequi, doloribus iusto asperiores tempora odio assumenda
+        reprehenderit. Rerum minima esse ipsum quibusdam pariatur sed provident quaerat ad a ducimus. Obcaecati rem
+        tempora odio esse aspernatur nulla! Vitae perspiciatis dolorem amet placeat aperiam quia necessitatibus natus.
+        Corporis, placeat maxime fuga nobis rerum, ut doloribus accusamus consequuntur esse, ullam aspernatur porro
+        dolorum laborum autem! Adipisci maiores aut laboriosam. Saepe, repellendus corrupti? Iusto voluptate sapiente
+        cum recusandae earum perspiciatis porro laboriosam, fugiat in amet reiciendis eius maxime dolorem esse,
+        voluptatibus repellat sed. Nobis itaque deleniti recusandae laboriosam aspernatur, impedit explicabo,
+        dignissimos inventore quis iure commodi! Voluptatem expedita explicabo facilis tempore et ipsum quam blanditiis
+        modi, nesciunt delectus repudiandae atque eligendi.</p>
+</body>
+
+</html>
